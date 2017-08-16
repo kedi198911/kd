@@ -1,0 +1,163 @@
+html, body {
+  margin:0;border:0;padding:0;
+  font-size:16px;
+  font-family:'微软雅黑';
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+ul,li{list-style: none;}
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {font-size:40px;}
+h2 {font-size:36px;}
+h3 {font-size:30px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+h2 {
+  padding-bottom:5px;
+}
+
+.accent {
+  font-family: '微软雅黑';
+
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tm-border {
+	border: 5px solid #fff;
+	box-shadow: 2px 2px #000;
+}
+
+.shadow {
+	text-shadow: 1px 1px #000;
+}
+
+.tm-title {
+	color: #996633;
+}
+
+.white {
+  color: #fff;
+}
+
+.about,.skills,
+.education,.languages,
+.contact, .experience {
+  padding: 40px;
+  min-height: 330px;
+}
+
+.education, .languages,
+.contact, .experience {
+  margin-top: 30px;
+}
+
+/* header section */
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+header img {
+  display: inline-block !important;
+}
+header h2 {
+  padding-top: 40px;
+}
+header hr {
+  border-color: #5e4831;
+  width: 100px;
+}
+
+/* about section */
+.about {
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(50,50,50,0.08);
+}
+
+.ab-table{width:100% ; height: auto; margin-top: 20px; }
+.ab-table th, .ab-table td{ line-height: 35px; border: 1px dashed #e0e0e0; padding: 5px; text-align: center;}
+
+/* skills section */
+.skills {
+  background: #5e4831;
+  color: #f5f5f5;
+}
+
+.sk-jn{ width: 100%; height: auto;  margin: 0; padding: 0; line-height:25px;}
+.sk-jn li{ margin-bottom: 10px;}
+.sk-jn li a{text-decoration: none; color: #fff;}
+.sk-jn li a:hover{ text-decoration: underline;}
+.sk-main{font-size:14px;}
+.sk-main h3{font-size:16px; font-weight: bold;}
+.sk-main p{ line-height:25px;}
+
+  /* education section */
+.education {
+  background: #5e4831;
+  color: #f5f5f5;
+}
+.education .education-content {
+  padding-bottom: 14px;
+}
+.education h5 {
+  display: inline-block;
+}
+.education span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+/* languages section */
+.languages {
+  background: #fff;
+ box-shadow: 0 1px 5px rgba(50,50,50,0.08);
+}
+.languages ul {
+  padding: 10px;
+}
+.languages ul li {
+  padding-bottom: 6px;
+}
+
+.languages p{ line-height: 30px; text-align: left;}
+/* footer section */
+footer {
+  color: #f9f9f9;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+@media ( max-width: 980px ) {
+  .skills {
+    margin-top: 30px;
+  }
+}
+
+@media ( max-width: 360px ) {
+  header h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+  .education h4,
+  .experience h4 {
+    font-size: 20px;
+  }
+}
